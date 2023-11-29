@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inter:700|DM Mono:400');
+
+body {
+  font-family: 'DM Mono';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+:root[data-theme="light"] {
+  --text: #0c0e0e;
+  --background: #ebebeb;
+  --primary: #a0a2a2;
+  --secondary: #c4c4c5;
+  --accent: #666567;
+}
+:root[data-theme="dark"] {
+  --text: #f1f3f3;
+  --background: #141414;
+  --primary: #5d5f5f;
+  --secondary: #3a3a3b;
+  --accent: #99989a;
+}
