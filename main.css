@@ -27,15 +27,15 @@ small {font-size: 0.750rem; /* 12px */}
 
 :root[data-theme="light"] {
   --text: #0c0e0e;
-  --background: #ebebeb;
-  --primary: #a0a2a2;
-  --secondary: #c4c4c5;
-  --accent: #666567;
+  --background: #b1c1d8;
+  --primary: #7b97ad;
+  --secondary: #405663;
+  --accent: #121b21;
 }
 :root[data-theme="dark"] {
   --text: #f1f3f3;
-  --background: #141414;
-  --primary: #5d5f5f;
-  --secondary: #3a3a3b;
-  --accent: #99989a;
+  --background: #27374e;
+  --primary: #526e84;
+  --secondary: #9cb2bf;
+  --accent: #dee7ed;
 }
