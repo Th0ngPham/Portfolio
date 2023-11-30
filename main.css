@@ -1,13 +1,12 @@
-
-@import url('https://fonts.googleapis.com/css?family=Inter:700|DM Mono:400');
+@import url('https://fonts.googleapis.com/css?family=Playfair Display:700|Playfair Display:400');
 
 body {
-  font-family: 'DM Mono';
+  font-family: 'Playfair Display';
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Inter';
+  font-family: 'Playfair Display';
   font-weight: 700;
 }
 
@@ -26,16 +25,16 @@ h5 {font-size: 1.333rem; /* 21.28px */}
 small {font-size: 0.750rem; /* 12px */}
 
 :root[data-theme="light"] {
-  --text: #0c0e0e;
-  --background: #b1c1d8;
-  --primary: #7b97ad;
-  --secondary: #405663;
-  --accent: #121b21;
+  --text: #000000;
+  --background: #fafafa;
+  --primary: #272626;
+  --secondary: #e6e6e5;
+  --accent: #b5b5b5;  
 }
 :root[data-theme="dark"] {
-  --text: #f1f3f3;
-  --background: #27374e;
-  --primary: #526e84;
-  --secondary: #9cb2bf;
-  --accent: #dee7ed;
+  --text: #ffffff;
+  --background: #050505;
+  --primary: #d9d8d8;
+  --secondary: #1a1a19;
+  --accent: #4a4a4a;
 }
