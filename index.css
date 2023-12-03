@@ -59,6 +59,10 @@ section {
   align-self: center;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 /*-------------NavBar------------*/
 nav {
   padding-top: 10px;
@@ -86,14 +90,13 @@ nav ul li {
   list-style: none;
   margin: 10px 20px;
 }
-nav ul li a {
+ a {
   color: #000000;
   text-decoration: none;
-  font-size: 28px;
   font-weight: 400;
   position: relative;
 }
-nav ul li a::after {
+ a::after {
   content: '';
   width: 0;
   height: 1.5px;
@@ -103,7 +106,7 @@ nav ul li a::after {
   bottom: -1px;
   transition: 0.5s;
 }
-nav ul li a:hover:after {
+ a:hover:after {
   width: 100%;
 }
 
