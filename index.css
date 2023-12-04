@@ -59,7 +59,7 @@ section {
   align-self: center;
 }
 
-body {
+html {
   scroll-behavior: smooth;
 }
 
