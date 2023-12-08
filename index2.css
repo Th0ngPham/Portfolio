@@ -59,7 +59,7 @@ body {
     width: 30px;
     height: 30px;
     padding: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     float: right;
 }
 
@@ -72,11 +72,15 @@ nav {
     padding-left: 10%;
     padding-right: 10%;
 }
+nav ul li{
+    display: none;
+}
 /* ---------Home section------------ */
 #Home {
     border: black 2px solid;
     padding-top: 100px;
     padding-right: 50px;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -101,12 +105,14 @@ h2 {
     border: black 2px solid;
     padding-top: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
 }
 /* ---------Services section------------ */
 #Services {
     border: black 2px solid;
     padding-top: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
 }
 
 .ServicesLayer {
@@ -118,6 +124,7 @@ h2 {
     border: black 2px solid;
     padding-top: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
 }
 .placeholder {
     width: 120px;
@@ -130,6 +137,7 @@ h2 {
     border: black 2px solid;
     padding-top: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
 }
 a {
     text-decoration: none;
@@ -163,7 +171,7 @@ a {
     width: 100%;
   }
 
-  @media only screen and (min-width: 1000px){
+  @media only screen and (min-width: 950px){
     .menu_img {
         display: none;
     }
