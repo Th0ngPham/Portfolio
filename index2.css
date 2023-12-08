@@ -93,6 +93,9 @@ h2 {
     padding-left: 60px;
     padding-top: 20px;
 }
+#Home img {
+    display: none;
+}
 /* ---------About section------------ */
 #About {
     border: black 2px solid;
@@ -158,4 +161,20 @@ a {
   }
    a:hover:after {
     width: 100%;
+  }
+
+  @media only screen and (min-width: 1000px){
+    .menu_img {
+        display: none;
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+      }
+
+      #Home img {
+        width: 300px;
+        float: right;
+      }
   }
